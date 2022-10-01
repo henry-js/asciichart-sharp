@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
-    <PackageVersion>1.0.2</PackageVersion>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <PackageVersion>1.0.3</PackageVersion>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
     <FileVersion>1.0.0</FileVersion>
     <Title>AsciiChart.Sharp</Title>
     <Authors>Nathan Baulch, Sam Carton, Igor Kroitor</Authors>
@@ -13,6 +13,8 @@
     <RepositoryUrl>https://github.com/NathanBaulch/asciichart-sharp</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>console cli graph chart terminal plot ascii ansi</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>AsciiChart.Sharp.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
 </Project>
