@@ -1,6 +1,13 @@
 # asciichart-sharp
 C# port of asciichart (https://github.com/kroitor/asciichart)
 
+# Installation
+
+Using the dotnet-cli:
+```
+dotnet add package AsciiChart.Sharp
+```
+
 # Usage
 ```c#
 var series = new double[100];
